@@ -23,7 +23,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-center items-center md:items-end gap-5 text-center md:text-left">
           <div>
             <Image
-              src={`${BASE}/logo.png`}
+              src={`${BASE}/logo-2.png`}
               alt="Церква Христа-Спасителя"
               width={180}
               height={180}

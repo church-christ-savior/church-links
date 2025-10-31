@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Церква Христа-Спасителя",
   description: "Посилання на соціальні мережі та канали церкви Христа-Спасителя у Дрогобичі",
   icons: {
-    icon: `${BASE}/logo.ico`,
+    icon: `${BASE}/logo-2.ico`,
   },
 };
 
