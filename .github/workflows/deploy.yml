@@ -3,7 +3,7 @@ name: Deploy Next.js to GitHub Pages
 on:
   push:
     branches:
-      - main  # або master, якщо у тебе інша гілка
+      - main  # або master, якщо інша гілка
 
 permissions:
   contents: write  # дозволяє пуш у gh-pages
@@ -25,7 +25,7 @@ jobs:
         run: npm ci
 
       - name: Build project 🔧
-        run: npm run build && npm run export
+        run: npm run build
 
       - name: Deploy to GitHub Pages 🚀
         uses: peaceiris/actions-gh-pages@v4
