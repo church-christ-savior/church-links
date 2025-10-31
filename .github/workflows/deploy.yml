@@ -3,10 +3,10 @@ name: Deploy Next.js to GitHub Pages
 on:
   push:
     branches:
-      - main  # або master, якщо інша гілка
+      - main 
 
 permissions:
-  contents: write  # дозволяє пуш у gh-pages
+  contents: write 
 
 jobs:
   build:

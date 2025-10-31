@@ -62,7 +62,7 @@ export default function Home() {
                   : "bg-gray-100 text-black hover:bg-gray-200"
               }`}
             >
-              <div className="border-r border-white/5 w-[50px] sm:w-[60px] h-[50px] sm:h-[60px] flex justify-center items-center">
+              <div className={`w-[50px] sm:w-[60px] h-[50px] sm:h-[60px] flex justify-center items-center ${theme ? "border-r border-white/5" : "border-r border-black/5"}`}>
                 <Image
                   src={theme ? item.iconBlack : item.iconWhite}
                   alt={item.title}
