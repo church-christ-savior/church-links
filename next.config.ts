@@ -2,8 +2,8 @@
 const nextConfig = {
   output: 'export',
   images: { unoptimized: true },
-  basePath: '/church_links', 
-  assetPrefix: '/church_links/', 
+  basePath: '/church-links',   
+  assetPrefix: '/church-links/',
 };
 
 export default nextConfig;
