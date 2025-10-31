@@ -13,7 +13,7 @@ export const data = [
         "title": "Наш Youtube канал",
         "link": "https://www.youtube.com/@drohobych.church",
         "iconBlack": `${BASE}/icons/iconYoutube.png`,
-        "iconWhite": `${BASE}/icons/iconsYoutubeWhite.png`
+        "iconWhite": `${BASE}/icons/iconYoutube-2.png`
     },
     { 
         "id": 3, 
