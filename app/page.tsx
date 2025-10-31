@@ -5,6 +5,7 @@ import React from "react";
 import Switch from "./components/Switch";
 import { data } from "./data";
 import Link from "next/link";
+import { BASE } from "./data";
 
 export default function Home() {
   const [theme, setTheme] = React.useState(true);
@@ -22,7 +23,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-center items-center md:items-end gap-5 text-center md:text-left">
           <div>
             <Image
-              src="/logo.png"
+              src={`${BASE}/logo.png`}
               alt="Церква Христа-Спасителя"
               width={180}
               height={180}
