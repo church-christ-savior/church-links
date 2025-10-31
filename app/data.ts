@@ -1,4 +1,4 @@
-export const BASE = "https://livinghearts.github.io/church_links";
+export const BASE = "https://church-christ-savior.github.io/church-links";
 
 export const data = [
     { 
