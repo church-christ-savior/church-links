@@ -1,12 +1,12 @@
-const BASE = "/church_links";
+export const BASE = "https://livinghearts.github.io/church_links";
 
 export const data = [
     { 
         "id": 1, 
         "title": "Наш Телеграм",
         "link": "https://t.me/drohobych_church/",
-        "iconBlack": "https://livinghearts.github.io/church_links/icons/iconTelegram.png",
-        "iconWhite": "https://livinghearts.github.io/church_links/icons/iconTelegramWhite.png"
+        "iconBlack": `${BASE}/icons/iconTelegram.png`,
+        "iconWhite": `${BASE}/icons/iconTelegramWhite.png`
     },
     { 
         "id": 2, 
