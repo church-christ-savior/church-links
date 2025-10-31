@@ -1,10 +1,12 @@
+const BASE = "/church_links";
+
 export const data = [
     { 
         "id": 1, 
         "title": "Наш Телеграм",
         "link": "https://t.me/drohobych_church/",
-        "iconBlack": "/icons/iconTelegram.png",
-        "iconWhite": "/icons/iconTelegramWhite.png"
+        "iconBlack": `${BASE}/icons/iconTelegram.png`,
+        "iconWhite": `${BASE}/icons/iconTelegramWhite.png`
     },
     { 
         "id": 2, 
